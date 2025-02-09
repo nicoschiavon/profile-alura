@@ -7,33 +7,15 @@
 }
 
 body{
+    height: 100vh;
     box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
 }
 
-.header{
-    padding: 3% 0% 0% 15%;
-}
-
-.header__menu{
-    display: flex;
-    gap: 80px;
-}
-
-.header__menu__link{
-    color: var(--Azul-claro, #22D4FD);
-    font-family: Montserrat;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-decoration: none;
-}
-
 
 .presentacion {
-    padding: 5% 15%;
+    padding: 8% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -45,6 +27,7 @@ body{
     flex-direction: column;
     gap: 40px;
 }
+
 
 .presentacion__contenido__titulo{
     font-size: 36px;
@@ -96,12 +79,11 @@ body{
 }
 
 .footer{
+    color: #000000;
     background-color: #22D4FD;
     padding: 24px;
-    color: #000;
     text-align: center;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 24px;
-    font-style: normal;
     font-weight: 400;
 }

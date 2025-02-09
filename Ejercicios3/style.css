@@ -1,0 +1,23 @@
+/* 1 - Personalizando el pie de página de tu sitio web
+
+Imagina que estás desarrollando un sitio web y ha llegado el momento de personalizar el pie de página.
+El desafío es crear un pie de página estilizado con las siguientes características: debe tener un fondo azul claro (#22D4FD),
+texto en negro (#000000), y el texto debe estar centrado y utilizar la fuente 'Montserrat',
+tamaño 24px y peso 400. Además, el pie de página debe tener un padding de 24px.
+Utiliza el HTML y CSS proporcionados como base y aplica las modificaciones necesarias.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    background-color: #22D4FD;
+    color: #000;
+    text-align: center;
+    padding: 24px;
+}
